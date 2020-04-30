@@ -15,7 +15,17 @@ class CashRegister
     @total += item_total
     @last_transaction_amount = item_total
     @total
-  end  
+  end
+  
+  def apply_discount
+    if discount > 0
+      @discount = discount/100.to_f
+      @total = (@total - (@total*@discount))
+      "After appying your discount, your total is $#{@total}."
+    else
+      "you do not have a discount to apply."
+    end
+  end
     
   def void_last_transaction
     @total = @total - @last_transaction_amount
