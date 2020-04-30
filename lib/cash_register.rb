@@ -9,7 +9,7 @@ class CashRegister
   
   def apply_discount()
     if @discount > 0
-      i = 0
+      @dicount
       
     
   end
