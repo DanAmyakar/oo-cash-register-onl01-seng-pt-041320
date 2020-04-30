@@ -8,7 +8,8 @@ class CashRegister
   end
   
   def apply_discount()
-    if quant
+    if quant > 1
+      
     
   end
   
