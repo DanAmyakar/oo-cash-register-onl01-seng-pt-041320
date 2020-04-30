@@ -9,5 +9,6 @@ class CashRegister
     @items = []             # Store an array of items (might make this a hash)
   end
   
-  
+  def void_last_transaction
+    @items.last.pop
 end
