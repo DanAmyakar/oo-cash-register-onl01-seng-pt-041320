@@ -17,7 +17,7 @@ class CashRegister
     else
       @items << title
     end
-    @items
+    @total += price * qnty
     
   
   def apply_discount()
