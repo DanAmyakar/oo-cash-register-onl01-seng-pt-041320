@@ -9,6 +9,18 @@ class CashRegister
   end
   
   def add_item(title, price, qnty = 1)
+    i = 0
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  def add_item(title, price, qnty = 1)
     if qnty > 1
       i = 0
       while i < qnty
