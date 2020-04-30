@@ -4,12 +4,11 @@ class CashRegister
   
   def initialize
     @total = 0.00
-    @employee_discount = false
+    @employee_discount = nil
   end
   
   def apply_discount
-    employee_discount = true
-    @total = (@total - (@total * 0.20))
+    
   end
   
 end
