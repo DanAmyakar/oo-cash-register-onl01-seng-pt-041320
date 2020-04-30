@@ -11,7 +11,7 @@ class CashRegister
     if qnty > 1
       i = 0
       while i < qnty
-        @items << 
+        @items << title
     
   
   def apply_discount()
