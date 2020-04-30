@@ -4,7 +4,7 @@ class CashRegister
   
   def initialize
     @total = 0.00
-    @discount = discount
+    @discount = 0.00
   end
   
   def apply_discount()
