@@ -4,13 +4,13 @@ class CashRegister
   
   def initialize
     @total = 0.00
-    @employee_discount = discount
+    @discount = discount
   end
   
   def apply_discount()
     if @discount > 0
       @dicount = @discount/100.0.to_f
-      @total = @total - (@total * @discount)
+      @total = @total - (@total * (@discount)
       
     
   end
