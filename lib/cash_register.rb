@@ -9,7 +9,7 @@ class CashRegister
   
   def add_item(title, price, qnty = 1)
     if qnty > 1
-      
+      i = 
     
   
   def apply_discount()
