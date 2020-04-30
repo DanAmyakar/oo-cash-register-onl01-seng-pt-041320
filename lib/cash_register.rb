@@ -31,7 +31,7 @@ class CashRegister
       @total = (@total - (@total*@discount))
       "After appying your discount, your total is $#{@total}."
     else
-      "you do not have a discount to apply."
+      "There is no discount to apply."
     end
   end
     
