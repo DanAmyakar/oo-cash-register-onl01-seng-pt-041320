@@ -17,7 +17,7 @@ class CashRegister
     else
       @items << title
     end
-    
+    @items
     
   
   def apply_discount()
