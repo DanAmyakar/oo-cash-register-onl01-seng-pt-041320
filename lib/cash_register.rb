@@ -1,6 +1,6 @@
 class CashRegister
   
-  attr_accessor :total, :employee_discount, :items, :last_transaction_amount
+  attr_accessor :total, :discount, :items, :last_transaction_amount
   
   def initialize
     @total = 0.00
@@ -8,7 +8,7 @@ class CashRegister
   end
   
   def apply_discount()
-    if quant > 1
+    if @discount > 1
       i = 0
       
     
