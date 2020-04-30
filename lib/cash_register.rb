@@ -12,6 +12,8 @@ class CashRegister
       i = 0
       while i < qnty
         @items << title
+        i += 1
+      end
     
   
   def apply_discount()
