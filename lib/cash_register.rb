@@ -9,7 +9,8 @@ class CashRegister
   
   def apply_discount()
     if @discount > 0
-      @dicount = @discount/
+      @dicount = @discount/100.0.to_f
+      
       
     
   end
