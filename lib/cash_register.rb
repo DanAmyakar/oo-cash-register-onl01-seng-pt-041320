@@ -9,6 +9,16 @@ class CashRegister
     @items = {}             # Store an array of items (might make this a hash)
   end
   
+  def add_item(item, price, qnty = 1)
+    @items.item
+    @items.
+    
+  
+  def last_transaction
+    @last_transaction_amount = (@items.last.price[val] * @items.last.qnty[val])
+  end
+  
   def void_last_transaction
-    @items
+    @total = @total - @last_transaction_amount
+  end
 end
