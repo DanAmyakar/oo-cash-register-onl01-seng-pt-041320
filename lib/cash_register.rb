@@ -11,7 +11,7 @@ class CashRegister
   
   def add_item(item, price, qnty = 1)
     item_total = price * qnty
-    @items[#{item}] = (item_total)
+    @items["#{item}" => (item_total)]
     @total += item_total
     @last_transaction_amount = item_total
     @total
